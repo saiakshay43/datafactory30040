@@ -121,6 +121,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Eventinitiatedby",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Initiatedby",
 									"type": "String",
@@ -128,6 +133,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Resourcetype",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "Type",
 									"type": "String",
@@ -135,6 +145,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Resourcegroup",
+									"type": "String",
+									"physicalType": "String"
+								},
 								"sink": {
 									"name": "group",
 									"type": "String",
