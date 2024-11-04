@@ -1,0 +1,61 @@
+{
+	"name": "dataworkspace_datapool_PoolActivityLog",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalytics1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "Correlationid",
+				"type": "varchar"
+			},
+			{
+				"name": "OperationName",
+				"type": "varchar"
+			},
+			{
+				"name": "Status",
+				"type": "varchar"
+			},
+			{
+				"name": "Eventcategory",
+				"type": "varchar"
+			},
+			{
+				"name": "level",
+				"type": "varchar"
+			},
+			{
+				"name": "time",
+				"type": "varchar"
+			},
+			{
+				"name": "subscription",
+				"type": "varchar"
+			},
+			{
+				"name": "Initiatedby",
+				"type": "varchar"
+			},
+			{
+				"name": "Type",
+				"type": "varchar"
+			},
+			{
+				"name": "group",
+				"type": "varchar"
+			},
+			{
+				"name": "resource",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "PoolActivityLog"
+		}
+	}
+}
